@@ -1,0 +1,15 @@
+
+[
+    {
+        "name": "INDIA",
+        "population": "1,380,004,385 people",
+        "capital": "Delhi",
+        "currency": "Rupee"
+    },
+    {
+        "name": "USA",
+        "population": "331,002,651 people",
+        "capital": "Washington",
+        "currency": "Dollar"
+    }
+]

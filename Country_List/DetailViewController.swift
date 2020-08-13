@@ -12,11 +12,12 @@ class DetailViewController: UIViewController {
 
     var capitalLabel: UILabel!
     var capitalLabelText: String?
+    var titleString: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Detail View"
+        title = titleString
         view.backgroundColor = .white
         
         capitalLabel = UILabel()

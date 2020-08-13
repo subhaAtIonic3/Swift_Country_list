@@ -14,6 +14,8 @@
 		2200491E24E53067007ED5E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2200491D24E53067007ED5E3 /* Assets.xcassets */; };
 		2200492124E53067007ED5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2200491F24E53067007ED5E3 /* LaunchScreen.storyboard */; };
 		2200492924E552B1007ED5E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200492824E552B1007ED5E3 /* DetailViewController.swift */; };
+		2200492B24E58164007ED5E3 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200492A24E58164007ED5E3 /* Country.swift */; };
+		2200492D24E587B1007ED5E3 /* country-list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2200492C24E587B1007ED5E3 /* country-list.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2200492024E53067007ED5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2200492224E53067007ED5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2200492824E552B1007ED5E3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2200492A24E58164007ED5E3 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2200492C24E587B1007ED5E3 /* country-list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "country-list.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				2200491424E53065007ED5E3 /* AppDelegate.swift */,
 				2200491624E53065007ED5E3 /* SceneDelegate.swift */,
+				2200492A24E58164007ED5E3 /* Country.swift */,
 				2200492824E552B1007ED5E3 /* DetailViewController.swift */,
 				2200491824E53065007ED5E3 /* ViewController.swift */,
 				2200491A24E53065007ED5E3 /* Main.storyboard */,
 				2200491D24E53067007ED5E3 /* Assets.xcassets */,
 				2200491F24E53067007ED5E3 /* LaunchScreen.storyboard */,
 				2200492224E53067007ED5E3 /* Info.plist */,
+				2200492C24E587B1007ED5E3 /* country-list.json */,
 			);
 			path = Country_List;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				2200492124E53067007ED5E3 /* LaunchScreen.storyboard in Resources */,
 				2200491E24E53067007ED5E3 /* Assets.xcassets in Resources */,
+				2200492D24E587B1007ED5E3 /* country-list.json in Resources */,
 				2200491C24E53065007ED5E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				2200491924E53065007ED5E3 /* ViewController.swift in Sources */,
 				2200491524E53065007ED5E3 /* AppDelegate.swift in Sources */,
 				2200491724E53065007ED5E3 /* SceneDelegate.swift in Sources */,
+				2200492B24E58164007ED5E3 /* Country.swift in Sources */,
 				2200492924E552B1007ED5E3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
